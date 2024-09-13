@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+main {
+    width: 1366px;
+    height: 1800px;
+    margin: 0 auto;
+    background-color: #1f8ad0;
+}
+header {
+    width: 1366px;
+    height: 200px;
+    background-color: #b8edf1;
+    text-align: center;
+}
+nav {
+    width: 1366px;
+    height: 60px;
+    background-color: rgb(44, 58, 154);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; color: rgb(0, 0, 0); font-family: "Noto Sans JP", sans-serif;
+    padding: 15px;
+    transition: 3s;
+}
+nav a:hover{
+    background-color: rgb(37, 40, 202);
+    transform: scale(1.2);
+}
+section{
+    width: 1366px;
+    height: 1500px;
+    background-color: #1f8ad0;
+    color: #dadde0;
+    padding: 50px 50px 0 50px;
+    font-size: 2rem;
+}
+
+.Personas {
+    padding: 10px;
+    border: 1px solid #2bdefd;
+    display: grid;
+    grid-template-columns: 300px 945px;
+    /* grid-template-rows: 100px; */
+    grid-auto-rows: 350px;
+  }
+
+.Personas .Imagenes {
+    display: grid;
+    border: 1px solid #00f4bf; 
+    height: 100%;
+    place-items: center;
+
+}
+
+.Texto {
+    border: .45px solid #00f4bf;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+.Texto p {
+    font-size: x-large;
+}
+
+footer {
+    width: 1366px;
+    height: 100px;
+    background-color: #5eb2dd
+}
